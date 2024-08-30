@@ -21,7 +21,7 @@
 }
 
 /*phone*/
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 500px) {
   .html {
     padding: 70px;
   }
@@ -34,6 +34,57 @@
   .pic {
     width: 100%;
     margin-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .html {
+    padding: 70px;
+  }
+  .head {
+    font-size: 25pt;
+  }
+  .body {
+    font-size: 15pt;
+  }
+  .pic {
+    width: 60%;
+    margin-bottom: 40px;
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .html {
+    padding: 70px;
+  }
+  .head {
+    font-size: 25pt;
+  }
+  .body {
+    font-size: 15pt;
+  }
+  .pic {
+    width: 60%;
+    margin-bottom: 40px;
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .html {
+    padding: 70px;
+  }
+  .head {
+    font-size: 30pt;
+  }
+  .body {
+    font-size: 20pt;
+  }
+  .pic {
+    width: 60%;
+    margin-bottom: 40px;
+    margin-left: 120px;
   }
 }
 
@@ -56,7 +107,7 @@
 }
 
 /*computer*/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1100px) {
   .html {
     padding: 0px;
   }
